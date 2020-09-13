@@ -1,0 +1,9 @@
+
+
+<h3>Add work</h3>
+<%= form_with model: @routine do |form| %>
+  <%= form.text_field :title, placeholder: "Title" %>
+  <%= form.text_field :description, placeholder: "Description" %>
+
+  <%= form.submit %>
+<% end %>
